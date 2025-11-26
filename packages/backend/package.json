@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tsx": "^4.20.6"
+  },
+  "dependencies": {
+    "node-cron": "^4.2.1",
+    "node-html-parser": "^7.0.1"
+  },
+  "scripts": {
+    "main": "NODE_ENV=development npx tsx main.ts",
+    "parser:dev": "NODE_ENV=development npx tsx parser/parse-script.ts",
+    "parser:prod": "NODE_ENV=production npx tsx parser/parse-script.ts"
+  }
+}

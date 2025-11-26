@@ -1,0 +1,7 @@
+{
+  "command": "cd packages/frontend && npm run dev",
+  "serverUrl": "",
+  "authenticateProxy": false,
+  "autoDetectDevServer": true,
+  "commitMode": "commits"
+}

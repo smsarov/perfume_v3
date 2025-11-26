@@ -1,0 +1,10 @@
+{
+    "name": "perfume",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "devDependencies": {
+        "drizzle-kit": "^0.31.7"
+    }
+}
