@@ -1,1 +1,0 @@
-export { createMailer } from "./mailer";

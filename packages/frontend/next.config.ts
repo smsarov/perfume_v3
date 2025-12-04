@@ -1,9 +1,9 @@
 import type { NextConfig } from "next";
-import BuilderDevTools from "@builder.io/dev-tools/next";
-import { loadRootEnv } from "../shared/env-loader";
+// import BuilderDevTools from "@builder.io/dev-tools/next";
+// import { loadRootEnv } from "../shared/env-loader";
 
-loadRootEnv();
-const nextConfig: NextConfig = BuilderDevTools()({
+// loadRootEnv();
+const nextConfig: NextConfig = {
   reactCompiler: true,
   turbopack: {
     rules: {
@@ -13,6 +13,6 @@ const nextConfig: NextConfig = BuilderDevTools()({
       },
     },
   },
-});
+};
 
 export default nextConfig;
