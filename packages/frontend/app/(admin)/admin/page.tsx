@@ -1,6 +1,6 @@
-import ExcelUploader from "./components/ExcelInputForm/ExcelInputForm";
-import { uploadProducts } from "@app/actions/upload-products-excel";
-import { uploadProductVariants } from "@app/actions/upload-product-variants-excel";
+import ExcelUploader from "./components/ExcelInputForm";
+import { uploadProducts } from "./actions/upload-products-excel";
+import { uploadProductVariants } from "./actions/upload-product-variants-excel";
 
 export default function page() {
   return (

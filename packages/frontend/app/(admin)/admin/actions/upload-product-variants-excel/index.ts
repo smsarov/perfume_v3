@@ -1,7 +1,7 @@
 "use server";
 
 import { productVariants } from '@db/schema';
-import { db } from '../../lib/db';
+import { db } from '@app/lib/db';
 
 export async function uploadProductVariants(formData: FormData){
     const file = formData.get('file') as File;
